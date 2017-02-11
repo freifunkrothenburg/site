@@ -35,5 +35,11 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
-# Languages to include
+# Languages to include, Region code required for some router types and mesh for ath10k devices set
 GLUON_LANGS ?= de
+
+GLUON_REGION ?= eu
+
+GLUON_ATH10K_MESH ?= ibss
+
+
