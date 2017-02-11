@@ -1,0 +1,7 @@
+GLUON_SITE_FEEDS='ffol tecff'
+
+PACKAGES_FFOL_REPO=https://github.com/freifunkrothenburg/packages-gluon.git
+PACKAGES_FFOL_COMMIT=df193251ee866700109d71d73dd99048dd1f8e10
+
+PACKAGES_TECFF_REPO=https://github.com/tecff/gluon-packages.git
+PACKAGES_TECFF_COMMIT=336bd2dd2aa27ee86c4e94868a484d4c52df8f5c
