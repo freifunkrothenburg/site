@@ -11,24 +11,25 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-contact-info \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-        gluon-luci-wifi-config \
-        gluon-luci-private-wifi \
-	gluon-next-node \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-node-role \
+        gluon-web-wifi-config \
+        gluon-web-private-wifi \
 	gluon-mesh-vpn-fastd \
+	gluon-radv-filterd \
 	gluon-radvd \
 	gluon-status-page \
+	respondd-module-airtime \
 	gluon-setup-mode \
 	iwinfo \
 	iptables \
 	haveged \
 	ffol-configurator \
 	ffol-nodewatcher \
-	tecff-ath9k-broken-wifi-workaround
+	tecff-ath9k-broken-wifi-workaround 
 
-DEFAULT_GLUON_RELEASE := 2016.2.$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2017.1.4.$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -40,6 +41,6 @@ GLUON_LANGS ?= de
 
 GLUON_REGION ?= eu
 
-GLUON_ATH10K_MESH ?= ibss
+GLUON_ATH10K_MESH ?= 11s
 
 
