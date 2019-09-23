@@ -44,3 +44,6 @@ GLUON_REGION ?= eu
 GLUON_ATH10K_MESH ?= 11s
 
 GLUON_MULTIDOMAIN=1
+
+# Do not build images for deprecated devices
+GLUON_DEPRECATED ?= 0
