@@ -25,11 +25,10 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-	ffol-configurator \
-	ffol-nodewatcher \
-	tecff-ath9k-broken-wifi-workaround 
+	tecff-ath9k-broken-wifi-workaround \
+	gluon-ssid-changer
 
-DEFAULT_GLUON_RELEASE := 2017.1.4.$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2018.2.2-build-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)

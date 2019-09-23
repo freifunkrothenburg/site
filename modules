@@ -1,4 +1,4 @@
-GLUON_SITE_FEEDS='ffol tecff mmwu'
+GLUON_SITE_FEEDS='ffol tecff mmwu ssidchanger'
 
 PACKAGES_FFOL_REPO=https://github.com/freifunkrothenburg/packages-gluon.git
 PACKAGES_FFOL_COMMIT=3552aadd82e4941c46bd548f3893c142a3d071c7
@@ -8,3 +8,7 @@ PACKAGES_TECFF_COMMIT=336bd2dd2aa27ee86c4e94868a484d4c52df8f5c
 
 PACKAGES_MMWU_REPO=https://github.com/freifunk-mwu/packages-ffmwu.git
 PACKAGES_MMWU_COMMIT=7f76c604b079e7cbc6b71c6d8c917448b9b0b6a4
+
+PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunkrothenburg/gluon-ssid-changer.git
+PACKAGES_SSIDCHANGER_COMMIT=be7c85017be7469d14e3ae5a0c5fccc8d54c375f
+PACKAGES_SSIDCHANGER_BRANCH=lede
