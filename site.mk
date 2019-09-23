@@ -1,34 +1,35 @@
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
-	gluon-alfred \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-contact-info \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-node-role \
-        gluon-web-wifi-config \
-        gluon-web-private-wifi \
-	gluon-mesh-vpn-fastd \
-	gluon-radv-filterd \
-	gluon-radvd \
-	gluon-status-page \
+	mesh-batman-adv-14 \
+	mesh-batman-adv-1 \
+	alfred \
+	respondd \
+	autoupdater \
+	config-mode-autoupdater \
+	gconfig-mode-hostname \
+	config-mode-mesh-vpn \
+	config-mode-core \
+	config-mode-geo-location \
+	config-mode-contact-info \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	web-admin \
+	web-autoupdater \
+	web-node-role \
+  web-wifi-config \
+  web-private-wifi \
+	mesh-vpn-fastd \
+	radv-filterd \
+	radvd \
+	status-page \
 	respondd-module-airtime \
-	gluon-setup-mode \
+	setup-mode \
 	iwinfo \
 	iptables \
 	haveged \
 	tecff-ath9k-broken-wifi-workaround \
 	gluon-ssid-changer
 
-DEFAULT_GLUON_RELEASE := 2018.2.2-build-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2019.1-build-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -42,4 +43,4 @@ GLUON_REGION ?= eu
 
 GLUON_ATH10K_MESH ?= 11s
 
-
+GLUON_MULTIDOMAIN=1
