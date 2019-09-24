@@ -9,7 +9,9 @@ GLUON_FEATURES := \
 				mesh-batman-adv-15 \
 				mesh-vpn-fastd \
 				radvd \
+				radv-filterd \
 				respondd \
+				scheduled-domain-switch \
 				status-page \
 				web-advanced \
 				web-mesh-vpn-fastd \
@@ -19,7 +21,6 @@ GLUON_FEATURES := \
 
 
 GLUON_SITE_PACKAGES := \
-	radv-filterd \
 	respondd-module-airtime \
 	iwinfo \
 	haveged \
