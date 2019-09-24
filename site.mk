@@ -1,30 +1,27 @@
+GLUON_FEATURES := \
+				alfred \
+				autoupdater \
+				config-mode-geo-location-osm \
+				ebtables-filter-multicast \
+				ebtables-filter-ra-dhcp \
+				ebtables-source-filter \
+				mesh-batman-adv-14 \
+				mesh-batman-adv-15 \
+				mesh-vpn-fastd \
+				radvd \
+				respondd \
+				status-page \
+				web-advanced \
+				web-mesh-vpn-fastd \
+				web-private-wifi \
+				web-wizard
+
+
+
 GLUON_SITE_PACKAGES := \
-	mesh-batman-adv-14 \
-	mesh-batman-adv-1 \
-	alfred \
-	respondd \
-	autoupdater \
-	config-mode-autoupdater \
-	gconfig-mode-hostname \
-	config-mode-mesh-vpn \
-	config-mode-core \
-	config-mode-geo-location \
-	config-mode-contact-info \
-	ebtables-filter-multicast \
-	ebtables-filter-ra-dhcp \
-	web-admin \
-	web-autoupdater \
-	web-node-role \
-  web-wifi-config \
-  web-private-wifi \
-	mesh-vpn-fastd \
 	radv-filterd \
-	radvd \
-	status-page \
 	respondd-module-airtime \
-	setup-mode \
 	iwinfo \
-	iptables \
 	haveged \
 	tecff-ath9k-broken-wifi-workaround \
 	gluon-ssid-changer
