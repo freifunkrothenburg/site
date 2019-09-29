@@ -2,8 +2,8 @@ GLUON_FEATURES := \
 				alfred \
 				autoupdater \
 				config-mode-geo-location-osm \
+				config-mode-domain-select \
 				ebtables-filter-multicast \
-				ebtables-filter-ra-dhcp \
 				ebtables-source-filter \
 				mesh-batman-adv-14 \
 				mesh-batman-adv-15 \
