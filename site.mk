@@ -4,7 +4,7 @@ GLUON_FEATURES := \
 				config-mode-geo-location-osm \
 				config-mode-domain-select \
 				ebtables-filter-multicast \
-				ebtables-source-filter \
+				ebtables-filter-ra-dhcp \
 				mesh-batman-adv-14 \
 				mesh-batman-adv-15 \
 				mesh-vpn-fastd \
